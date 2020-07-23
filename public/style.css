@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.clearfix {
+    clear: both;
+}
+.menubar{
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
+    background: rgb(150, 7, 7);
+    box-shadow: 0 0 10px #000000;
+    padding-top: 10px;
+    
+}
+.menubar .logo {
+    float: left;
+    font-size: 30px;
+}
+.menubar h1 {
+    margin: 60;
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.menubar ul.menu {
+    list-style: none;
+    float: right; 
+}
+.menubar ul.menu li {
+    float: left;
+    margin-right: 20px;
+}
+.menubar ul.menu li a{
+    text-decoration: none;
+    color: rgb(212, 255, 210);
+}
+
+.header {
+    width: 100%;
+    background: url(image/pic1.png)no-repeat ;
+    height: 200px;
+    background-position:right;
+    background-position-y: 0.5px;
+    background-color: rgb(165, 165, 165);
+    margin-top: 5px;
+    position: relative;
+}
+
+
+.header_area h1{
+    margin: 20px;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.header_area h2{
+    margin: 2px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+.info1{
+    width: 100%;
+    height: 300px;
+    background: url(image/pic3.png)no-repeat ;
+    background-position:right;
+    background-position-x: 60;
+    background-position-y: 0.5px;
+    background-color: rgb(53, 4, 88);
+    margin-top: 5px;
+}
+.info1_area{
+    color: black;
+}
+.info1_area img {
+    margin-top: px;
+    float: left;
+}
+.info1_text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 460;
+    margin: 60px;
+    float: left;
+}
+.info1_area h1{
+    margin: 0%;
+}
+.info1_text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 50px;
+    float: left;
+    position: center;
+}
+
+.info2{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background: url(image/pic7.png)no-repeat ;
+    background-position:right;
+    background-position-x: 80;
+    background-position-y: 1px;
+    background-color: rgb(0, 0, 0);
+}
+.info2_area{
+    color: black;
+    
+}
+.info2_area img {
+    margin-top: 5px;
+    float: right;
+}
+.info2_text{
+    color: rgb(202, 255, 8);
+    font-size:20px;
+    text-shadow: 20ex;
+    float: left;
+    text-align: center;
+    width: 460;
+    margin: 60px;
+    
+}
+
+footer{
+    background-color: black;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
